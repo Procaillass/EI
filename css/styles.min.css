@@ -1,5 +1,49 @@
 html {
   font-size: .9em;
   color: red;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 100vh;
+  background-color: paleturquoise;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  border: 1px solid red;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+nav ul li {
+  list-style: none;
+  text-align: right;
+  padding: 1em;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 600;
+  letter-spacing: .05em;
 }
 /*# sourceMappingURL=styles.min.css.map */
