@@ -7,10 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Exercice Intégré - Prygiel Joseph</title>
     <link rel="stylesheet" href="./css/styles.min.css">
+    <!-- open graph optimiser SEO -->
+    <meta property="og:title" content="Kazan - The ultimate competition of WorldSkills" />
+    <meta property="og:image" content="./images/logo.png" />
 </head>
 
 <body>
-
     <header>
         <!-- h1 invisible -->
         <h1 class="disable">Kazan - Smart city</h1>
@@ -33,10 +35,9 @@
                 <li><a href="contact.html">GetTickets</a></li>
             </ul>
             <!-- champ de recherche -->
-            <form action="">
+            <form action="#">
                 <label for="recherche">
-                    
-                    <input class="icon-search" id="recherche" type="text" />
+                    <input class="icon-search" id="recherche" type="text" placeholder="Entrez votre recherche" />
                 </label>
             </form>
         </nav>
@@ -48,13 +49,16 @@
         <p>The ultimate competition dedicated for any manuals and technologicals skills, loves and works just for fun,
             for their work or just exchanging their passion with others…</p>
 
-        <form action="">
+        <form action="#">
             <button>See Schedule</button>
         </form>
 
     </header>
     <!-- debut du main contenu -->
     <main>
+        <!-- titre du main -->
+        <h1>Que faire à Kazan ?</h1>
+
         <ul>
             <!-- chaque li représente un endroit différent et ont la même structure -->
             <li>
@@ -202,28 +206,24 @@
                     <a href="">Read more</a>
                 </div>
             </li>
-
-
         </ul>
-
     </main>
+    <!-- Fin du main -->
 
+    <!-- debut du footer -->
     <footer>
         <!-- Get ticket button -->
         <a class="getTicketButton href=" contact.html">
             <p>Get ticket</p>
             <div class="footerGetTicketButton">
                 <!-- icone cb -->
-                <p class="codeConf">\e905</p>
+                <span class="icon-cb"></span>
                 <!-- icone paypal -->
-                <p class="codeConf">\e906</p>
+                <span class="icon-paypal"></span>
                 <p>₽2600<span>RUR</span></p>
             </div>
         </a>
-
-
-
-
+        <!-- fin du get ticket button -->
         <div>
             <img src="" alt="icone pin">
             <h1>TatarStan Toursim</h1>
@@ -233,21 +233,22 @@
                 qui en fait la sixième ville de Russie.</p>
             <p>Visit Tatarstan</p>
             <p>+7 843-206-00-14 (speaker’s support)</p>
+
+            <!-- case réseaux socaux -->
             <div class="footerFooter">
                 <h2>Follow US</h2>
+                <!-- footer des réseaux sociaux -->
                 <div class="footerFooterFooter">
-                    <img src="" alt="icone hashtag">
-                    <p>#kazan2019</p>
-                    <img src="" alt="icone twitter">
-                    <p>@kazan2019</p>
+
+                    <p class="icon-slack">#kazan2019</p>
+                    <p class="icon-twitter">@kazan2019</p>
                 </div>
-                <img src="" alt="world skill belgium logo">
             </div>
+            <!-- fin des réseaux sociaux -->
+            <img src="./images/startechs.png" alt="world skill belgium logo bleu">
         </div>
-
     </footer>
-
-
+    <!-- fin du footer -->
 </body>
 
 </html>
