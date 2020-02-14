@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="./css/styles.min.css">
     <!-- open graph optimiser SEO -->
     <meta property="og:title" content="Kazan - The ultimate competition of WorldSkills" />
-    <meta property="og:image" content="./images/logo.png" />
+    <meta property="og:image" content="./images/logo.png"/>
 </head>
 
 <body>
     <header>
-        <!-- h1 invisible -->
-        <h1 class="disable">Kazan - Smart city</h1>
-        <!-- logo -->
-        <img class="logoKazan" src="./images/logo_kazan.png" alt="Kazan logo">
+        <!-- h1 invisible --> <!-- logo -->
+        <h1> <span class="disable">Kazan - Smart city</span><img class="logoKazan" src="./images/logo_kazan.png" alt="Kazan logo"> </h1>
+        
+        
         <!-- debut du burger menu -->
         <div class="burgerButton">
             <span class="barre1"></span>
@@ -27,7 +27,7 @@
         <!-- fin du burger menu -->
 
         <!-- début de la navigation -->
-        <nav>
+        <nav >
             <ul>
                 <li><a href="#">Visits</a></li>
                 <li><a href="contact.html">Contact</a></li>
@@ -37,20 +37,22 @@
             <!-- champ de recherche -->
             <form action="#">
                 <label for="recherche">
-                    <input class="icon-search" id="recherche" type="text" placeholder="Entrez votre recherche" />
+                    <input class="icon-search" id="recherche" type="search" placeholder="Entrez votre recherche" />
                 </label>
             </form>
         </nav>
         <!-- fin de la navigation -->
 
-        <p>Augus</p>
-        <p>22 > 27</p>
-        <p>The ultimate competition dedicated for any manuals and technologicals skills, loves and works just for fun,
+        <p class="month">Augus</p>
+        <p class="day">22 > 27</p>
+        <p class="description">The ultimate competition dedicated for any manuals and technologicals skills, loves and works just for fun,
             for their work or just exchanging their passion with others…</p>
 
-        <form action="#">
-            <button>See Schedule</button>
-        </form>
+        <div class="flex">
+            <a class="schedule">See Schedule</a>
+        </div>
+        
+        
 
     </header>
     <!-- debut du main contenu -->
