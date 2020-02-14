@@ -28,6 +28,11 @@ html {
   left: 0;
 }
 
+.logoWorldSkill {
+  width: 200px;
+  margin: 2em;
+}
+
 nav {
   height: 100vh;
   background-color: paleturquoise;

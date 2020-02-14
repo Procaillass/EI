@@ -31,6 +31,15 @@ html {
     left: 0;
 }
 
+.logoWorldSkill {
+
+    width: 200px;
+    
+    margin: 2em; 
+    
+
+}
+
 
 nav {
     height: 100vh;
@@ -50,6 +59,8 @@ nav {
             list-style: none; 
             text-align: right;
             padding: 1em; 
+
+            
         
             a {
                 text-decoration: none; 
@@ -60,6 +71,8 @@ nav {
                 letter-spacing: .05em; 
                 
             }
+
+           
 
         }
     }
@@ -219,3 +232,6 @@ nav {
     color:#0ce;
   }
   /* end demo */
+
+
+
