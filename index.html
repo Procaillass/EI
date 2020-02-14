@@ -1,38 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Exercice Intégré - Prygiel Joseph</title>
     <link rel="stylesheet" href="./css/styles.min.css">
 </head>
 
 <body>
 
     <header>
-<div class="burgerButton">
-    <span></span>
-    <span></span>
-    <span></span>
-</div>
+        <!-- h1 invisible -->
+        <h1 class="disable">Kazan - Smart city</h1>
+        <!-- logo -->
+        <img class="logoKazan" src="./images/logo_kazan.png" alt="Kazan logo">
+        <!-- debut du burger menu -->
+        <div class="burgerButton">
+            <span class="barre1"></span>
+            <span class="barre2"></span>
+            <span class="barre3"></span>
+        </div>
+        <!-- fin du burger menu -->
 
-
+        <!-- début de la navigation -->
         <nav>
             <ul>
                 <li><a href="#">Visits</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="contact.html">Contact</a></li>
                 <li><a href="#">History</a></li>
-                <li><a href="#">GetTickets</a></li>
+                <li><a href="contact.html">GetTickets</a></li>
             </ul>
+            <!-- champ de recherche -->
             <form action="">
-                <input type="text">
-                <img src="" alt="icone loupe de recherche">
+                <label for="recherche">
+                    
+                    <input class="icon-search" id="recherche" type="text" />
+                </label>
             </form>
         </nav>
+        <!-- fin de la navigation -->
 
-        <img src="" alt="">
+        <img src="./images/logo.png" alt="logo world skills Kazan 2019">
         <p>Augus</p>
         <p>22 > 27</p>
         <p>The ultimate competition dedicated for any manuals and technologicals skills, loves and works just for fun,
@@ -43,10 +53,10 @@
         </form>
 
     </header>
-
+    <!-- debut du main contenu -->
     <main>
-
         <ul>
+            <!-- chaque li représente un endroit différent et ont la même structure -->
             <li>
                 <h2>Kremlin <span>de Kazan</span></h2>
                 <p>Center of the city</p>
@@ -192,24 +202,29 @@
                     <a href="">Read more</a>
                 </div>
             </li>
-            <li>
-                <h2><span></span></h2>
-                <p></p>
-                <img src="" alt="">
-                <h3></h3>
-                <p></p>
-                <div class="footerLiMain">
-                    <img src="" alt="icone coeur">
-                    <a href="">Read more</a>
-                </div>
-            </li>
+
 
         </ul>
 
     </main>
 
     <footer>
-        <div class="headerFooter">
+        <!-- Get ticket button -->
+        <a class="getTicketButton href=" contact.html">
+            <p>Get ticket</p>
+            <div class="footerGetTicketButton">
+                <!-- icone cb -->
+                <p class="codeConf">\e905</p>
+                <!-- icone paypal -->
+                <p class="codeConf">\e906</p>
+                <p>₽2600<span>RUR</span></p>
+            </div>
+        </a>
+
+
+
+
+        <div>
             <img src="" alt="icone pin">
             <h1>TatarStan Toursim</h1>
             <p>TatarStan Toursim Ulitsa Maksima Gor'kogo, 19, Kazan, 420015</p>
