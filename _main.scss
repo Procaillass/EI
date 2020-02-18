@@ -156,10 +156,7 @@ main{
                 }
             }
 
-            /*En js, prévoir un script qui ajoute dynamiquement la classe .reveal 
-            aux li qui sont "touch"*/
-            /*Sur desktop, ajouter la classe .reveal aux li qui sont survolés (hover)*/
-            /*A priori, la classe se retire quand on ne survole plus (à vérifier)*/
+           
             .reveal{
 
                 &:before{

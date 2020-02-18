@@ -1,8 +1,12 @@
+// BORDER
+
 .#{$fa-css-prefix}-border {
   border: solid .08em $fa-border-color;
   border-radius: .1em;
   padding: .2em .25em .15em;
 }
+
+// PULL LEFT RIGHT
 
 .#{$fa-css-prefix}-pull-left { float: left; }
 .#{$fa-css-prefix}-pull-right { float: right; }
@@ -16,5 +20,5 @@
   &.#{$fa-css-prefix}-pull-right { margin-left: .3em; }
 }
 
-// BORDER
-// PULL LEFT RIGHT
+
+

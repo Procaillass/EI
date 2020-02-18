@@ -1,5 +1,4 @@
-// Variables
-// --------------------------
+// MES VARIABLES
 
 $fa-font-path:         "../styles/webfonts" !default;
 $fa-font-size-base:    16px !default;
@@ -13,7 +12,7 @@ $fa-fw-width:          (20em / 16);
 $fa-primary-opacity:   1 !default;
 $fa-secondary-opacity: .4 !default;
 
-// Convenience function used to set content property
+
 @function fa-content($fa-var) {
   @return unquote("\"#{ $fa-var }\"");
 }

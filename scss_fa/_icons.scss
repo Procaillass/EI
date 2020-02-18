@@ -1,6 +1,3 @@
-/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
-readers do not read off random characters that represent icons */
-
 .#{$fa-css-prefix}-500px:before { content: fa-content($fa-var-500px); }
 .#{$fa-css-prefix}-accessible-icon:before { content: fa-content($fa-var-accessible-icon); }
 .#{$fa-css-prefix}-accusoft:before { content: fa-content($fa-var-accusoft); }
@@ -1408,3 +1405,6 @@ readers do not read off random characters that represent icons */
 .#{$fa-css-prefix}-youtube:before { content: fa-content($fa-var-youtube); }
 .#{$fa-css-prefix}-youtube-square:before { content: fa-content($fa-var-youtube-square); }
 .#{$fa-css-prefix}-zhihu:before { content: fa-content($fa-var-zhihu); }
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+readers do not read off random characters that represent icons */
