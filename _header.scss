@@ -1,4 +1,4 @@
-header{ /* CHECK ! ENFIN !*/
+header{ 
     height: 100vh;
     width:100%;
     margin:0;
@@ -266,9 +266,7 @@ header{ /* CHECK ! ENFIN !*/
                         width: 100%;
                         height: 100%;
                         display: block;
-                        /*background-image: url('../img/search.svg');
-                        background-repeat: no-repeat;
-                        background-size: cover;*/
+                      
 
                         &:after{
                             content: "\f002";
