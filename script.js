@@ -21,4 +21,15 @@ document.addEventListener("click", ev => {
     };
 });
 
+document.addEventListener("click", ev => {
+    if (ev.target.classList.contains("hidden") ) {
+        let reveler = ev.target.closest(".hidden");
+        reveler.classList.toggle("hidden");        
+    };
+
+
+
+
+});
+
 
