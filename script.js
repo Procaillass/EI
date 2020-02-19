@@ -21,6 +21,8 @@ document.addEventListener("click", ev => {
     };
 });
 
+// APPARITION SEARCH MENU MOBILE (en cours)
+
 document.addEventListener("click", ev => {
     if (ev.target.classList.contains("hidden") ) {
         let reveler = ev.target.closest(".hidden");
