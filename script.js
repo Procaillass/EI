@@ -80,3 +80,18 @@ $('.form').find('input, textarea').on('keyup blur focus', function (e) {
     $(target).fadeIn(600);
     
   });
+
+  
+let url = "http://cepegra.yo.fr/kazan_api/"
+
+  const Main = function () {
+      axios.get(url)
+      .then(response => {
+          beers = response.data
+      })
+      .then(Affiche)
+      .catch(function() {
+          alert('erreur de connexion')
+      })
+  }
+window.addEventListener("load", Main)
