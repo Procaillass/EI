@@ -81,7 +81,9 @@ $('.form').find('input, textarea').on('keyup blur focus', function (e) {
     
   });
 
-  
+
+/// API
+
 let url = "http://cepegra.yo.fr/kazan_api/"
 
   const Main = function () {
